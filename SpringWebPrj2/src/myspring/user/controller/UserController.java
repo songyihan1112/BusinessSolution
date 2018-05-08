@@ -46,7 +46,7 @@ public class UserController {
 		cityList.add("서울");
 		cityList.add("대전");
 		cityList.add("대구");
-		cityList.add("부산");
+		cityList.add("부산부산부산");
 		
 		Map<String, List<String>> map = new HashMap<>();
 		map.put("genderList", genderList);
