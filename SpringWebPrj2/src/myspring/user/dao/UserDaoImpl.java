@@ -26,7 +26,7 @@ public class UserDaoImpl implements UserDao {
 	
 	public void insert(UserVO user) {
 		session.update("userNS.insertUser", user);
-		System.out.println("등록된 Record UserId=" + user.getUserId() + " Name=" + user.getName());
+		System.out.println("Record UserId=" + user.getUserId() + " Name=" + user.getName());
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class UserDaoImpl implements UserDao {
 	@Override
 	public void delete(String id) {
 		session.delete("userNS.deleteUser", id);
-		System.out.println("삭제된 Record with ID = " + id ); 
+		System.out.println("Record with ID = " + id ); 
 	}
 
 

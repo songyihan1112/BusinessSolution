@@ -25,7 +25,7 @@ public class UserDaoImplMapper implements UserDao {
 
 	public void insert(UserVO user) {
 		userMapper.insertUser(user);
-		System.out.println("µî·ÏµÈ Record UserId=" + user.getUserId() + 
+		System.out.println("ì•„ì´ë”” ìƒì„± Record UserId=" + user.getUserId() + 
 				" Name=" + user.getName());
 	}
 
@@ -37,7 +37,7 @@ public class UserDaoImplMapper implements UserDao {
 	@Override
 	public void delete(String id) {
 		userMapper.deleteUser(id);
-		System.out.println("»èÁ¦µÈ Record with ID = " + id ); 
+		System.out.println("ì•„ì´ë”” ì‚­ì œ Record with ID = " + id ); 
 	}
 }
 
